@@ -24,7 +24,6 @@ public class ExecutionContext {
     }
 
     private WebDriver createDriver() {
-        //WebDriver webDriver = DriverType.valueOf("firefox").createWebDriver();
         WebDriver webDriver = DriverType.valueOf("chrome").createWebDriver();
         return webDriver;
     }

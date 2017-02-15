@@ -3,6 +3,7 @@ package com.rpenunuri.automation.pages;
 import com.rpenunuri.automation.util.Condition;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
